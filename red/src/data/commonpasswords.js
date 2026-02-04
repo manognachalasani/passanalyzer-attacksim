@@ -1,7 +1,7 @@
 /**
  * Optimized for O(1) lookup performance.
  */
-const extendedPasswords = new Set([
+const commonPasswords = new Set([
   "jesus1", "linkedin", "babygirl1", "789456", "blink182", 
   "thomas", "qwer1234", "333333", "liverpool", "michelle", 
   "nicole", "qwert", "j38ifUbn", "131313", "asdasd", 
