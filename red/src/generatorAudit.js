@@ -4,9 +4,9 @@ import { getCharsetSize } from "../utils/charset";
 export function auditGenerator(samples = 100) {
   const passwords = generateMultiplePasswords(samples);
 
-  const lengths = new Set<number>();
-  const charsets = new Set<number>();
-  let symbolOnlySet = new Set<string>();
+  const lengths = new Set();
+  const charsets = new Set();
+  let symbolOnlySet = new Set();
 
   passwords.forEach(pwd => {
     lengths.add(pwd.length);
