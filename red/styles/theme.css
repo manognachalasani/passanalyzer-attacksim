@@ -1,0 +1,95 @@
+/* background */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", "Inter", sans-serif;
+  background: linear-gradient(135deg,#1b1f3b,#0f1025);
+  min-height: 100vh;
+  color: #f2f3ff;
+}
+
+/* main container */
+
+.container {
+  max-width: 650px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+/* glass card */
+
+.card {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+}
+
+/* title */
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+/* password input */
+
+.inputBox {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  margin-top: 10px;
+  background: #1d2045;
+  color: white;
+}
+
+/* strength bar container */
+
+.strengthBar {
+  height: 10px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* animated strength bar */
+
+.strengthFill {
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.4s ease;
+}
+
+/* results */
+
+.result {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* attack result box */
+
+.card h3 {
+  margin-top: 0;
+  color: #8aa0ff;
+}
+
+.card p {
+  margin: 8px 0;
+}
+
+/* hover glow */
+
+.card:hover {
+  transform: translateY(-2px);
+  transition: 0.25s ease;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.45);
+}

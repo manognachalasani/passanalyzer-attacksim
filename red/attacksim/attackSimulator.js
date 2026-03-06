@@ -1,8 +1,8 @@
-import { estimateBruteForceTime } from "./bruteforce";
-import { estimateDictionaryTime } from "./dictionary";
-import { ATTACK_SPEEDS } from "./attackSpeeds";
-import { isCommonPassword } from "./passwordUtils";
-import { detectAttackPatterns } from "./patternDetection";
+import { estimateBruteForceTime } from "./bruteforce.js";
+import { estimateDictionaryTime } from "./dictionary.js";
+import { ATTACK_SPEEDS } from "./attackSpeeds.js";
+import { isCommonPassword } from "../detection/passwordUtils.js";
+import { detectAttackPatterns } from "../detection/patternDetection.js";
 
 export function simulateAttack(password) {
   if (isCommonPassword(password)) {

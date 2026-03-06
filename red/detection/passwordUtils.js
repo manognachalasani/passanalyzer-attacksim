@@ -1,4 +1,4 @@
-import { commonPasswords } from "./commonpasswords";
+import commonPasswords from "../data/commonpasswords.js";
 
 // normalizing input
 export function normalizePassword(password) {

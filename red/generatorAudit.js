@@ -1,5 +1,5 @@
-import { generateMultiplePasswords } from "../blueteam/passwordGenerator";
-import { getCharsetSize } from "../utils/charset";
+import { generateMultiplePasswords } from "../blueteam/passwordGenerator.js";
+import { getCharsetSize } from "./utils/charset.js";
 
 export function auditGenerator(samples = 100) {
   const passwords = generateMultiplePasswords(samples);

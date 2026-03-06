@@ -1,4 +1,4 @@
-import { getCharsetSize } from "../utils/charset";
+import { getCharsetSize } from "./utils/charset.js";
 
 export function calculateEntropy(password) {
   const charset = getCharsetSize(password);

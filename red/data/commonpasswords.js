@@ -204,4 +204,4 @@ const commonPasswords = new Set([
   "mmmmmm", "vanessa1", "happy123", "abcd123", "fuckyou!"
 ]);
 
-export default extendedPasswords;
+export default commonPasswords;
